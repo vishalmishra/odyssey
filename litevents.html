@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Literary Events</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Image Accordion with CSS3" />
+        <meta name="keywords" content="accordion, images, slideshow, css3, css-only, web development, component, tutorial" />
+        <meta name="author" content="Ring Wing for Codrops" />
+		<link rel="icon" type="image/png" href="logo.png">
+		<script type='text/javascript' src='js/loadImg.js'></script>
+		<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/schedule.css" />
+        <link rel="stylesheet" type="text/css" href="lit/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="lit/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/contact.css" />
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+
+		<script type="text/javascript" src="lit/js/modernizr.custom.79639.js"></script>
+		<script src="bootstrap/bootstrap.min.js"></script>
+		<script src="js/angular.min.js"></script>
+		<script src="js/app.js"></script>
+		<!--[if lte IE 8]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+		<script type='text/javascript'>
+			$(function(){
+				$('img').imgPreload()
+			})
+			$(window).load(function() {
+				$(".se-pre-con").fadeOut("slow");;
+			});
+
+		</script>
+		<style type="text/css">
+			.no-js #loader { display: none;  }
+			.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+			.se-pre-con {
+				position: fixed;
+				left: 0px;
+				top: 0px;
+				width: 100%;
+				height: 100%;
+				z-index: 9999;
+				background: url(imgs/Preloader_3.gif) center no-repeat #ffffff;
+			}
+
+			body{
+				overflow-x: hidden;
+			}
+			.parent
+			{
+				width: 95vh;
+				border-bottom: 4px solid grey;
+				position: relative;
+			}
+			.child {
+				background: -webkit-linear-gradient(top,#050a0f 1%, #202428 70%, #0A0A0A 100%);
+
+				background: #ffffff;
+				width: 41px;
+				height: 40px;
+				border-radius: 50%;
+				border:2px solid grey;
+				position: absolute;
+				content:'';
+				top: -18px;
+			}
+			.child {
+				left: 80%;
+				margin-left: -8px;
+			}
+			/*.about,.gallery,.contact,.spons{
+            background: -webkit-linear-gradient(top,#050a0f 1%, #202428 70%, #0A0A0A 100%);
+                //	background: url("imgs/new/About_us/back.png") no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+            }*/
+		</style>
+
+	</head>
+    <body>
+
+	<div class="about section" style="margin-top:0%;overflow:hidden">
+		<span class="cloud01">
+			<img src="imgs/new/About_us/clouds/01_new.png">
+		</span>
+		<span class="cloud02">
+			<img src="imgs/new/About_us/clouds/02_new.png">
+		</span>
+		<span class="cloud03">
+			<img src="imgs/new/About_us/clouds/01_new.png" style="width:80%;">
+		</span>
+		<span class="cloud04">
+			<img src="imgs/new/About_us/clouds/04_new.png" style="width: 60%;">
+		</span>
+		<span class="cloud05">
+			<img src="imgs/new/About_us/clouds/05_new.png" style="width: 60%;">
+		</span>
+		<span class="cloud06">
+			<img src="imgs/new/About_us/clouds/06_new.png" style="width: 60%;">
+		</span>
+		<span class="cloud07">
+			<img src="imgs/new/About_us/clouds/07_new.png" style="width: 60%;">
+		</span>
+		<span class="cloud08">
+			<img src="imgs/new/About_us/clouds/08_new.png" style="width: 60%;">
+		</span>
+		<span class="cloud09">
+			<img src="imgs/new/About_us/clouds/09_new.png" style="width: 60%;">
+		</span>
+		<span class="cloud10">
+			<img src="imgs/new/About_us/clouds/10_new.png" style="width: 60%;">
+		</span>
+		<span class="cloud11">
+			<img src="imgs/new/About_us/clouds/11_new.png" style="width: 60%;">
+		</span>
+	</div>
+        <div class="container">
+
+			<header>
+			
+				<h1><span>Odyssey'17</span></h1>
+				<h2>Literary Events</h2>
+				
+				<div class="support-note"><!-- let's check browser support with modernizr -->
+					<!--span class="no-cssanimations">CSS animations are not supported in your browser</span-->
+					<!--span class="no-csstransforms">CSS transforms are not supported in your browser</span-->
+					<!--span class="no-csstransforms3d">CSS 3D transforms are not supported in your browser</span-->
+					<span class="no-csstransitions">CSS transitions are not supported in your browser</span>
+					<span class="note-ie">Sorry, only modern browsers.</span>
+				</div>
+				
+			</header>
+			
+			<section class="main">
+			
+				<div class="ia-container">
+				
+					<figure>
+						<img src="lit/images/1.jpg" alt="image01" />
+						<input type="radio" name="radio-set" checked="checked"/>
+						<figcaption><span><span1 class="head1">Vaktavya -</span1> It does not matter who you are, or where you came from. The chance of success comes when you have the ability to express yourself. Every participant will be required to write and present a speech on one topic from a list of given topics. Points will be there for content, expression, fluency and confidence.<br>
+              <span1 class="head2">Topics</span1> - current Burning issues will be there. No topic will be boring for audience as well as the participants.
+
+   </span></figcaption>
+						<figure>
+							<img src="lit/images/2.jpg" alt="image02" />
+							<input type="radio" name="radio-set" />
+							<figcaption><span><span1 class="head1">AD MAD SHOW -</span1> An Advertisement marketing team event competition comprising of  max. 4 members to showcase your creativity in marketing products and services. In round one, participants will have to come prepare and present an ad for a product or service of their choice in max. 3 minutes. Shortlisting will be done for second round in which certain product or name of services will be given and teams have to prepare an advertisement in 20 minutes. Time limit for presenting ad is 3 minutes.
+							</span></figcaption>
+							
+							<figure>
+								<img src="lit/images/3.jpg" alt="image03" />
+								<input type="radio" name="radio-set" />
+								<figcaption><span><span1 class="head1">QUIZ - </span1>Knowledge will forever govern ignorance and people who mean to be their own governors must arm themselves with the power which knowledge gives. This quiz will test your general knowledge.<br>
+<span1 class="head1">Cricket quiz - </span1>How closely you follow cricket? Take the quiz and boast with pride.<br>
+<span1 class="head1">Football quiz - </span1>Are you a football lover?  Test your knowledge in this quiz.<br>
+	<span1 class="head1">Trivia - </span1>Do you think you are a  Hollywood/ Bollywood geek?  Take this quiz and learn something new you are unaware about.
+  </span></figcaption>
+								
+								<figure>
+									<img src="lit/images/4.jpg" alt="image04" />
+									<input type="radio" name="radio-set" />
+									<figcaption><span>
+<span1 class="head1">Personality Assessment Test (PAT) - </span1><br>
+<span1 class="head1">•</span1> Aptitude Quiz - Test your mental skills and strategy in this aptitude quiz<br>
+	<span1 class="head1">•</span1> Stimulator (GD/PI) Personality - The clock is ticking and your wait shall not be rewarded, so express yourself soon before the atmosphere is heated up.
+
+									</span></figcaption>
+									
+									<figure>
+										<img src="lit/images/5.jpg" alt="image05" />
+										<input type="radio" name="radio-set" />
+										<figcaption><span>
+					<span1 class="head1">Panel Discussion - </span1>Anxious to seek and know?? Come and challenge the status quo.<br>
+This time the panel discussion will be like we see in TV news channel debates.
+										</span></figcaption>
+
+				                       <figure>
+		<img src="lit/images/6.jpeg" alt="image06" />
+			<input type="radio" name="radio-set" />
+			 <figcaption><span><span1 class="head1">Modern United Nations (MUN) - </span1>
+				MUN is an educational simulation and/or academic competition in which students can learn about diplomacy, international relations, and the United Nations. MUN involves and teaches researching, public speaking, debating, and writing skills, in addition to critical thinking, teamwork, and leadership abilities. At the end of a conference, the best-performing delegates in each committee, as well as delegations, are  recognized with awards.
+			 </span></figcaption>
+
+						<figure>
+							<img src="lit/images/7.jpg" alt="image07" />
+							<input type="radio" name="radio-set" />
+					<figcaption><span><span1 class="head1">Potential professor - </span1>
+						The dream begins with a teacher who believes in you, who tugs and pushes and leads you to the next plateau. If you have such capability then come and show..!! In this, students will have to teach professors any one topic of their wish. Faculty will also ask questions/doubts. The best Professor (student) will be selected by the Students (professors).
+					</span></figcaption>
+
+						<figure>
+						<img src="lit/images/8.jpg" alt="image07" />
+							<input type="radio" name="radio-set" />
+						<figcaption><span><span1 class="head1">Poster Presentation - </span1>
+						Have self- sufficient solutions to these social issues, latest advancements..?? Let your ideas consolidate and let your actions initiate a new form of transformation.
+						</span></figcaption>
+
+							<figure>
+						<img src="lit/images/9.jpg" alt="image07" />
+		<input type="radio" name="radio-set" />
+						<figcaption><span><span1 class="head1">Drive Pitch (B-Plan)  - </span1>
+						Why should you work till night when you can do better than that because you have ideas which can incline your hard work in smart work. But not well confident to execute them??? So Drive pitch provides you a healthy environment for expressing your ideas within 10 minutes.
+						</span></figcaption>
+								<figure>
+									<img src="lit/images/10.jpg" alt="image08" />
+									<input type="radio" name="radio-set" />
+									<figcaption><span><span1 class="head1">JUST A MINUTE (JAM) - </span1>
+	An all-round fun event that is all about the control of the mind over the mouth. Non-stop talking for 60 seconds without hesitation, repetition or deviation.
+Topics for poster, B-plan, speech and Panel Discussion, JAM and bills to be presented in MUN will be given later.	</span></figcaption>
+							<figure>
+					<img src="lit/images/11.jpg" alt="image09" />
+					<input id="ia-selector-last" type="radio" name="radio-set" />
+						<figcaption><span><span1 class="head1">Informal Events - </span1><br>
+				<span1 class="head1">•</span1> Spell bee<br>
+		<span1 class="head1">•</span1> Brain teaser<br>
+				<span1 class="head1">•</span1> Sudoku <br>
+		<span1 class="head1">•</span1> Texting
+
+						</span></figcaption>
+				</figure>
+                     </figure>
+												
+											</figure>
+								
+										</figure>	
+											
+									</figure>	
+										
+								</figure>
+									
+							</figure>
+							
+						</figure>
+						
+					</figure>
+					
+				</div><!-- ia-container -->
+				
+			</section>
+			
+        </div>
+<br>
+	<br>
+	<br>
+	<!-- Contact us -->
+	<div class="section contact ng-scope" id="contact" ng-controller="contactCtrl" style="margin-top: 50px">
+		<div class="col-md-2 hidden-sm hidden-xs" id="contact_title" style="font-family:&#39; Oswald&#39;, sans-serif;">
+			<div class="page_title">
+				CONTACT&nbsp;US
+				<div class="parent"><div class="child"></div></div>
+			</div>
+		</div>
+		<div class="col-md-10 col-md-offset-0 col-xs-10 col-xs-offset-1" style="font-family: 'Varela Round', sans-serif">
+			<div class="row">
+				<div class="col-lg-12 help-text">
+					<h2 class="text-center" style="font-family: 'Oswald', sans-serif;color:#B48C2D;"><b>Literary Team</b></h2>
+				</div>
+			</div>
+			<div style="height:90vh;overflow-y:scroll;overflow-x:hidden;">
+				<!-- ngRepeat: tab in contacts2017 --><div ng-repeat="tab in contacts2017" id="Secretary, LIT)" class="ng-scope">
+
+				<!-- ngRepeat: secretary in secretaries2017 --><div class="col-md-6 col-md-offset-3 ng-scope" ng-repeat="secretary in secretaries2017">
+				<h3 class="sec-dept text-center ng-binding">FESTIVAL COORDINATOR & LIT SECRETARY</h3>
+				<img width="196px" ng-src="lit/images/pics/ab.png" class="img-responsive corePic" src="lit/images/pics/ab.png">
+				<div class="text-center">
+					<span class="ng-binding"><a href="https://www.facebook.com/rajat.srivastava.100483?fref=ts" style="text-decoration:none;color:#cccccc;">Amit Batra</a></span><br>
+					<span><a href="mailto:amitbatra@odyssey17.in" target="_blank" class="ng-binding" style="color: #1b6d85">amitbatra@odyssey17.in</a></span><br>
+					<span class="ng-binding">+917784826319</span>
+				</div>
+			</div>
+				<div ng-repeat="tab in contacts2017" id="Marketing" class="ng-scope">
+
+					<div ng-hide="$index===0||$index===1" class="row department">
+					</div>
+					<div ng-hide="$index===0||$index===1" class="row photos">
+						<!-- ngRepeat: member in tab.members --><div ng-class="{'col-md-4' : true,'col-md-offset-4':false, 'col-md-offset-2':true &amp;&amp; true, 'col-md-offset-0':false &amp;&amp; true}" ng-repeat="member in tab.members" class="ng-scope col-md-4 col-md-offset-2">
+						<img ng-src="lit/images/pics/lv.png" class="img-responsive corePic" src="lit/images/pics/lv.png">
+						<div class="text-center">
+							<span class="center ng-binding"><a href="https://www.facebook.com/divyansh.agrawal.54?fref=ts" style="text-decoration:none;color:#cccccc;">Lovey Varshney</a></span><br>
+							<span class="ng-binding" style="color: #B48C2D">(Head, Finance)</span><br>
+							<span class="ng-binding">+919528745741</span>
+						</div>
+					</div>
+
+						<!-- end ngRepeat: member in tab.members --><div ng-class="{'col-md-4' : true,'col-md-offset-4':false, 'col-md-offset-2':true &amp;&amp; false, 'col-md-offset-0':false &amp;&amp; false}" ng-repeat="member in tab.members" class="ng-scope col-md-4">
+						<img ng-src="lit/images/pics/abh.png" class="img-responsive corePic" src="lit/images/pics/abh.png">
+						<div class="text-center">
+							<span class="center ng-binding"><a href="https://www.facebook.com/amardeep.pandey.161?fref=ts" style="text-decoration:none;color:#cccccc;">Atulya Bhatt</a></span><br>
+							<span class="ng-binding" style="color: #B48C2D">(Head, Marketing)</span><br>
+							<span class="ng-binding">+918934958664</span>
+						</div>
+					</div><!-- end ngRepeat: member in tab.members -->
+					</div>
+				</div><!-- end ngRepeat: tab in contacts2017 -->
+				<div ng-repeat="tab in contacts2017" id="Events" class="ng-scope">
+					<div ng-hide="$index===0||$index===1" class="row department">
+					</div>
+					<div ng-hide="$index===0||$index===1" class="row photos">
+						<!-- ngRepeat: member in tab.members --><div ng-class="{'col-md-4' : true,'col-md-offset-4':false, 'col-md-offset-2':true &amp;&amp; true, 'col-md-offset-0':false &amp;&amp; true}" ng-repeat="member in tab.members" class="ng-scope col-md-4 col-md-offset-2">
+						<img ng-src="lit/images/pics/ss.png" class="img-responsive corePic" src="lit/images/pics/ss.png">
+						<div class="text-center">
+							<span class="center ng-binding"><a href="https://www.facebook.com/vatsala.mishra.963" style="text-decoration:none;color:#cccccc;">Sakshi Srivastava</a></span><br>
+							<span class="ng-binding" style="color: #B48C2D">(Head, Formal Events)</span><br>
+							<span class="ng-binding">+918115278549</span>
+						</div>
+					</div><!-- end ngRepeat: member in tab.members --><div ng-class="{'col-md-4' : true,'col-md-offset-4':false, 'col-md-offset-2':true &amp;&amp; false, 'col-md-offset-0':false &amp;&amp; false}" ng-repeat="member in tab.members" class="ng-scope col-md-4">
+						<img ng-src="lit/images/pics/st.png" class="img-responsive corePic" src="lit/images/pics/st.png">
+						<div class="text-center">
+							<span class="center ng-binding"><a href="https://www.facebook.com/profile.php?id=100004497136341" style="text-decoration:none;color:#cccccc;">Shivam Thakral</a></span><br>
+							<span class="ng-binding" style="color: #B48C2D">(Head, Event Management)</span><br>
+							<span class="ng-binding">+918979293529</span>
+						</div>
+					</div><!-- end ngRepeat: member in tab.members -->
+					</div>
+				</div><!-- end ngRepeat: tab in contacts2017 -->
+				<div ng-repeat="tab in contacts2017" id="Events formal" class="ng-scope">
+
+					<div ng-hide="$index===0||$index===1" class="row department">
+
+					</div>
+					<div ng-hide="$index===0||$index===1" class="row photos">
+						<!-- ngRepeat: member in tab.members --><div ng-class="{'col-md-4' : true,'col-md-offset-4':false, 'col-md-offset-2':true &amp;&amp; true, 'col-md-offset-0':false &amp;&amp; true}" ng-repeat="member in tab.members" class="ng-scope col-md-4 col-md-offset-2">
+						<img ng-src="lit/images/pics/bp.png" class="img-responsive corePic" src="lit/images/pics/bp.png">
+						<div class="text-center">
+							<span class="center ng-binding"><a href="https://www.facebook.com/profile.php?id=100001013122374" style="text-decoration:none;color:#cccccc;">Bajrang Pratap Singh Bishnoi</a></span><br>
+							<span class="ng-binding" style="color: #B48C2D">(Head, Requizzite)</span><br>
+							<span class="ng-binding">+917800355544</span>
+						</div>
+					</div><!-- end ngRepeat: member in tab.members --><div ng-class="{'col-md-4' : true,'col-md-offset-4':false, 'col-md-offset-2':true &amp;&amp; false, 'col-md-offset-0':false &amp;&amp; false}" ng-repeat="member in tab.members" class="ng-scope col-md-4">
+						<img ng-src="lit/images/pics/pb.png" class="img-responsive corePic" src="lit/images/pics/pb.png">
+						<div class="text-center">
+							<span class="center ng-binding"><a href="https://www.facebook.com/shreya.vaish" style="text-decoration:none;color:#cccccc;">Priyansh Balyan</a></span><br>
+							<span class="ng-binding" style="color: #B48C2D">(Head, Design)</span><br>
+							<span class="ng-binding">+918439868552</span>
+						</div>
+					</div><!-- end ngRepeat: member in tab.members -->
+					</div>
+				</div><!-- end ngRepeat: tab in contacts2017 -->
+				<div ng-repeat="tab in contacts2017" id="Events informal &amp; Sales" class="ng-scope">
+
+					<div ng-hide="$index===0||$index===1" class="row department">
+
+					</div>
+					<div ng-hide="$index===0||$index===1" class="row photos">
+						<!-- ngRepeat: member in tab.members --><div ng-class="{'col-md-4' : true,'col-md-offset-4':false, 'col-md-offset-2':true &amp;&amp; true, 'col-md-offset-0':false &amp;&amp; true}" ng-repeat="member in tab.members" class="ng-scope col-md-4 col-md-offset-2">
+						<img ng-src="lit/images/pics/sks.png" class="img-responsive corePic" src="lit/images/pics/sks.png">
+						<div class="text-center">
+							<span class="center ng-binding"><a href="https://www.facebook.com/parth.s.yadav.1?fref=ts" style="text-decoration:none;color:#cccccc;">Sudhir Kumar Sahu</a></span><br>
+							<span class="ng-binding" style="color: #B48C2D">(Head, Field Work)</span></span><br>
+							<span class="ng-binding">+919425656165</span>
+						</div>
+					</div><!-- end ngRepeat: member in tab.members --><div ng-class="{'col-md-4' : true,'col-md-offset-4':false, 'col-md-offset-2':true &amp;&amp; false, 'col-md-offset-0':false &amp;&amp; false}" ng-repeat="member in tab.members" class="ng-scope col-md-4">
+						<img ng-src="lit/images/pics/ag.png" class="img-responsive corePic" src="lit/images/pics/ag.png">
+						<div class="text-center">
+							<span class="center ng-binding"><a href="https://www.facebook.com/parul.chandel.904?fref=ts" style="text-decoration:none;color:#cccccc;">Ayush Agrawal</a></span><br>
+							<span class="ng-binding" style="color: #B48C2D">(Head, Media)</span><br>
+							<span class="ng-binding">+917409030585</span>
+						</div>
+					</div><!-- end ngRepeat: member in tab.members -->
+					</div>
+				</div><!-- end ngRepeat: tab in contacts2017 -->
+				<div ng-repeat="tab in contacts2017" id="Events informal" class="ng-scope">
+
+					<div ng-hide="$index===0||$index===1" class="row department">
+
+					</div>
+					<div ng-hide="$index===0||$index===1" class="row photos">
+						<!-- ngRepeat: member in tab.members --><div ng-class="{'col-md-4' : true,'col-md-offset-4':false, 'col-md-offset-2':true &amp;&amp; true, 'col-md-offset-0':false &amp;&amp; true}" ng-repeat="member in tab.members" class="ng-scope col-md-4 col-md-offset-2">
+						<img ng-src="lit/images/pics/pn.png" class="img-responsive corePic" src="lit/images/pics/pn.png">
+						<div class="text-center">
+							<span class="center ng-binding"><a href="https://www.facebook.com/parth.s.yadav.1?fref=ts" style="text-decoration:none;color:#cccccc;">Priyankshi Narang</a></span><br>
+							<span class="ng-binding" style="color: #B48C2D">(Head, Show Management)</span></span><br>
+							<span class="ng-binding">+918853588461</span>
+						</div>
+					</div><!-- end ngRepeat: member in tab.members --><div ng-class="{'col-md-4' : true,'col-md-offset-4':false, 'col-md-offset-2':true &amp;&amp; false, 'col-md-offset-0':false &amp;&amp; false}" ng-repeat="member in tab.members" class="ng-scope col-md-4">
+						<img ng-src="lit/images/pics/sc.png" class="img-responsive corePic" src="lit/images/pics/sc.png">
+						<div class="text-center">
+							<span class="center ng-binding"><a href="https://www.facebook.com/parul.chandel.904?fref=ts" style="text-decoration:none;color:#cccccc;">Shiva Chaudhary</a></span><br>
+							<span class="ng-binding" style="color: #B48C2D">(Head, Security)</span><br>
+							<span class="ng-binding">+918791958494</span>
+						</div>
+					</div><!-- end ngRepeat: member in tab.members -->
+					</div>
+				</div>
+				<div ng-repeat="tab in contacts2017" id="Design" class="ng-scope">
+
+				<div ng-hide="$index===0||$index===1" class="row department">
+
+				</div>
+				<div ng-hide="$index===0||$index===1" class="row photos">
+					<!-- ngRepeat: member in tab.members --><div ng-class="{'col-md-4' : true,'col-md-offset-4':false, 'col-md-offset-2':true &amp;&amp; true, 'col-md-offset-0':false &amp;&amp; true}" ng-repeat="member in tab.members" class="ng-scope col-md-4 col-md-offset-2">
+					<img ng-src="lit/images/pics/ac.png" class="img-responsive corePic" src="lit/images/pics/ac.png">
+					<div class="text-center">
+						<span class="center ng-binding"><a href="https://www.facebook.com/profile.php?id=100005083574401&fref=ts" style="text-decoration:none;color:#cccccc;">Aditya Chaudhary</a></span><br>
+						<span class="ng-binding" style="color: #B48C2D">(Head, Hospitality)</span><br>
+						<span class="ng-binding">+919559580102</span>
+					</div>
+				</div><!-- end ngRepeat: member in tab.members --><div ng-class="{'col-md-4' : true,'col-md-offset-4':false, 'col-md-offset-2':true &amp;&amp; false, 'col-md-offset-0':false &amp;&amp; false}" ng-repeat="member in tab.members" class="ng-scope col-md-4">
+					<img ng-src="lit/images/pics/ak.png" class="img-responsive corePic" src="lit/images/pics/ak.png">
+					<div class="text-center">
+						<span class="center ng-binding"><a href="https://m.facebook.com/profile.php?id=100007625655400" style="text-decoration:none;color:#cccccc;">Ashutosh Kushwaha</a></span><br>
+						<span class="ng-binding" style="color: #B48C2D">(Head, Publicity)</span><br>
+						<span class="ng-binding">+917017485550</span>
+					</div>
+				</div><!-- end ngRepeat: member in tab.members -->
+				</div>
+			</div><!-- end ngRepeat: tab in contacts2017 --><div ng-repeat="tab in contacts2017" id="Site Management" class="ng-scope">
+				<div ng-show="$index===0" class="row ng-hide">
+
+					<div ng-hide="$index===0||$index===1" class="row department">
+					</div>
+					<div ng-hide="$index===0||$index===1" class="row photos">
+						<!-- ngRepeat: member in tab.members --><div ng-class="{'col-md-4' : true,'col-md-offset-4':false, 'col-md-offset-2':true &amp;&amp; true, 'col-md-offset-0':false &amp;&amp; true}" ng-repeat="member in tab.members" class="ng-scope col-md-4 col-md-offset-2">
+						<img ng-src="lit/images/pics/sm.png" class="img-responsive corePic" src="lit/images/pics/sm.png">
+						<div class="text-center">
+							<span class="center ng-binding"><a href="https://www.facebook.com/nitin.gupta.56232" style="text-decoration:none;color:#cccccc;">Shubh Mahaur</a></span><br>
+							<span class="ng-binding" style="color: #B48C2D">(Head, Decoration)</span><br>
+							<span class="ng-binding">+918958958959</span>
+						</div>
+					</div><!-- end ngRepeat: member in tab.members --><div ng-class="{'col-md-4' : true,'col-md-offset-4':false, 'col-md-offset-2':false &amp;&amp; false, 'col-md-offset-0':true &amp;&amp; false}" ng-repeat="member in tab.members" class="ng-scope col-md-4">
+						<img ng-src="lit/images/pics/da.png" class="img-responsive corePic" src="lit/images/pics/da.png">
+						<div class="text-center">
+							<span class="center ng-binding"><a href="https://www.facebook.com/ritikhbti?fref=ts" style="text-decoration:none;color:#cccccc;">Devesh Aggrawal</a></span><br>
+							<span class="ng-binding" style="color: #B48C2D">(Head, Cyber Cell)</span><br>
+							<span class="ng-binding">+918923040473</span>
+						</div>
+					</div>
+					</div>
+				</div><!-- end ngRepeat: tab in contacts2017 -->
+
+
+			</div></div></div></div>
+
+	<script type="text/javascript" src="code.jquery.com/jquery-2.2.4.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    </body>
+	<style type="text/css">
+		.hide-bullets {
+			list-style:none;
+			margin-left: -40px;
+			margin-top:20px;
+		}
+
+		.thumbnail {
+			height:100%;
+			padding: 0;
+		}
+
+		.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+			width: 100%;
+		}
+
+		/*Scrollbar*/
+		::-webkit-scrollbar {
+			width: 6px;
+			height: 6px;
+		}
+		::-webkit-scrollbar-button {
+			width: 0px;
+			height: 0px;
+		}
+		::-webkit-scrollbar-thumb {
+			background: #B48C2D;
+			border: 100px none #ffffff;
+			border-radius: 100px;
+		}
+		::-webkit-scrollbar-thumb:hover {
+			background: #ffffff;
+		}
+		::-webkit-scrollbar-thumb:active {
+			background: #ffffff;
+		}
+		::-webkit-scrollbar-track {
+			background: #666666;
+			border: 100px none #ffffff;
+			border-radius: 100px;
+		}
+		::-webkit-scrollbar-track:hover {
+			background: #666666;
+		}
+		::-webkit-scrollbar-track:active {
+			background: #333333;
+		}
+		::-webkit-scrollbar-corner {
+			background: transparent;
+		}
+		/*for firefox */
+		/*Scrollbar*/
+
+		/*nav  trans, animation, spons*/
+
+
+	</style>
+</html>

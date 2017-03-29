@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="icon" type="image/png" href="logo.png">
+
+    <link rel="stylesheet" type="text/css" href="css/schedule.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+  </head>
+
+  <body>
+<div class="about section" style="margin-top:0%;overflow:hidden">
+		<span class="cloud01">
+			<img src="imgs/new/About_us/clouds/01_new.png">
+		</span>
+		<span class="cloud02">
+			<img src="imgs/new/About_us/clouds/02_new.png">
+		</span>
+		<span class="cloud03">
+			<img src="imgs/new/About_us/clouds/01_new.png" style="width:80%;">
+		</span>
+		<span class="cloud04">
+			<img src="imgs/new/About_us/clouds/04_new.png" style="width: 60%;">
+		</span>
+		<span class="cloud05">
+			<img src="imgs/new/About_us/clouds/05_new.png" style="width: 60%;">
+		</span>
+		<span class="cloud06">
+			<img src="imgs/new/About_us/clouds/06_new.png" style="width: 60%;">
+		</span>
+		<span class="cloud07">
+			<img src="imgs/new/About_us/clouds/07_new.png" style="width: 60%;">
+		</span>
+		<span class="cloud08">
+			<img src="imgs/new/About_us/clouds/08_new.png" style="width: 60%;">
+		</span>
+		<span class="cloud09">
+			<img src="imgs/new/About_us/clouds/09_new.png" style="width: 60%;">
+		</span>
+		<span class="cloud10">
+			<img src="imgs/new/About_us/clouds/10_new.png" style="width: 60%;">
+		</span>
+		<span class="cloud11">
+			<img src="imgs/new/About_us/clouds/11_new.png" style="width: 60%;">
+		</span>
+		</div>
+    <!-- multistep form -->
+<form id="msform"  action="my.php" method="get">
+  <!-- progressbar -->
+  <ul id="progressbar">
+    <li class="active">Personal Details</li>
+    <li>Contact Details</li>
+    <li>Events Details</li>
+  </ul>
+  <!-- fieldsets -->
+  <fieldset form="msform">
+    <h2 class="fs-title">Personal Details</h2>
+    <h3 class="fs-subtitle">Welcome to Odyssey</h3>
+    <h3 class="fs-subtitle">* - required fields</h3>
+    <input type="text" name="fname" placeholder="First Name*" required>
+    <input type="text" name="lname" placeholder="Last Name" />
+    <input type="text" name="branch" placeholder="Branch(For B.Tech only)" />
+    <input type="text" name="Year" placeholder="Year (1st,2nd,3rd,4th)" />
+    <textarea name="college" placeholder="College Name*" required></textarea>
+    <input type="button" name="next" class="next action-button" value="Next" />
+
+  </fieldset>
+  <fieldset form="msform">
+    <h2 class="fs-title">Contact Information</h2>
+    <h3 class="fs-subtitle">Welcome to Odyssey</h3>
+    <input type="email" name="email" placeholder="Email*" required/>
+    <input type="text" name="phone" placeholder="Phone*" required/>
+    <select name="accomo">
+      <option value="" default selected>Accommodation Required</option>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+    <input type="text" name="fblink" placeholder="Facebook Profile Link*" required/>
+    <!input type="password" name="pass" placeholder="Password" />
+    <!input type="password" name="cpass" placeholder="Confirm Password" />
+    <input type="button" name="previous" class="previous action-button" value="Previous" />
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+  <fieldset form="msform">
+    <h2 class="fs-title">Event Detail</h2>
+    <h3 class="fs-subtitle">Name the events seperated by commas<br><div style="color:#B48C2D;">(Please mention at least one event)</div></h3>
+    <h2 class="fs-title">Formal Events</h2>
+    <h3 class="fs-subtitle">(Also mention the group name if any)</h3>
+    <input type="text" name="forsolo" placeholder="Cultural Night Events (Main Event)" />
+    <input type="text" name="forgroup" placeholder="Literary Events" />
+    <h2 class="fs-title">Informal Events</h2>
+    <h3 class="fs-subtitle">(Registrations for Informal Events will be done on the on the spot)</h3>
+    <!--input type="text" name="infosolo" placeholder="Solo Events" />
+    <input type="text" name="infogroup" placeholder="Group Events" /-->
+    <input type="button" name="previous" class="previous action-button" value="Previous" />
+    <input type="submit" name="submit" class="submit action-button" value="Submit"/>
+  </fieldset>
+
+
+</form>
+
+
+<!--script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<!--script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script-->
+
+<script src='lib/jquery-1.10.1.min.js'></script>
+<script src='lib/jquery.easing.min.js'></script>
+        <script src="js/index.js"></script>
+
+  </body>
+  <style type="text/css">
+    .hide-bullets {
+      list-style:none;
+      margin-left: -40px;
+      margin-top:20px;
+    }
+
+    .thumbnail {
+      height:100%;
+      padding: 0;
+    }
+
+    .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+      width: 100%;
+    }
+
+    /*Scrollbar*/
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-button {
+      width: 0px;
+      height: 0px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #B48C2D;
+      border: 100px none #ffffff;
+      border-radius: 100px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #ffffff;
+    }
+    ::-webkit-scrollbar-thumb:active {
+      background: #ffffff;
+    }
+    ::-webkit-scrollbar-track {
+      background: #666666;
+      border: 100px none #ffffff;
+      border-radius: 100px;
+    }
+    ::-webkit-scrollbar-track:hover {
+      background: #666666;
+    }
+    ::-webkit-scrollbar-track:active {
+      background: #333333;
+    }
+    ::-webkit-scrollbar-corner {
+      background: transparent;
+    }
+  </style>
+</html>

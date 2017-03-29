@@ -1,0 +1,53 @@
+.gallery .img_border{
+	position: absolute;
+	bottom: 6%;
+	left: 4%;
+	z-index: 1;
+	height: 85%;
+	width:80%;
+	border: 5px solid #B48C2D;
+}
+.gallery  #pic_img img{
+	position: absolute;
+	bottom: 1%;
+}
+.gallery  #gallery_title{
+	position: relative;
+	top:1em;
+	left:1em;
+	height : 90vh;
+	/*border-right: 1px solid black;*/
+	position: relative;
+}
+/*.gallery  #gallery_img{
+    display: block;
+    width: 20%;
+    height: auto;
+}*/
+.gallery  #text{
+	text-align: justify;
+	text-align-last: right;
+	-moz-text-align-last: right;
+}
+/*.gallery  #gallery_title:after {
+  content: '';
+  height: 90%;
+  width: 4px;
+  position: absolute;
+  right: 0;
+  bottom: 0em; 
+  background-color: grey;
+}*/
+.gallery  .page_title{
+	position: absolute;
+	bottom: 5%;
+	right: 0;
+	-ms-transform: rotate(-90deg) translateX(100%); 
+	-ms-transform-origin: 100% 100%;
+	-webkit-transform: rotate(-90deg) translateX(100%);
+	-webkit-transform-origin: 100% 100%;
+	transform: rotate(-90deg) translateX(100%);
+	transform-origin: 100% 100%;
+	font-size: 7em;
+	font-weight: 800;
+}

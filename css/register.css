@@ -1,0 +1,233 @@
+.about #tree_img, #pic_img{
+	position: relative;
+	height: 70vh;
+}
+
+.about #tree_img img{
+	position: absolute;
+	right: 3%;
+	bottom: 5%;
+}
+
+.about .img_border{
+	position: absolute;
+	bottom: 6%;
+	right: 10%;
+	z-index: 1;
+	height: 85%;
+	width:80%;
+	border: 5px solid #B48C2D;
+}
+.about #pic_img img{
+	position: absolute;
+	margin-left:105%;
+	bottom: 60%;
+}
+
+.about #title{
+	top:2em;
+	height : 90vh;
+	position: relative;
+}
+
+.about #text{
+	text-align: justify;
+	text-align-last: right;
+	-moz-text-align-last: right;
+}
+
+/*.about #title:after {
+  content: '';
+  height: 95%;
+  width: 4px;
+  position: absolute;
+  right: 0;
+  bottom: 0em; 
+  background-color: grey;
+}*/
+
+.about .page_title{
+	position: absolute;
+	bottom: 5%;
+	right: 0;
+	-ms-transform: rotate(-90deg) translateX(100%); 
+	-ms-transform-origin: 100% 100%;
+	-webkit-transform: rotate(-90deg) translateX(100%);
+	-webkit-transform-origin: 100% 100%;
+	transform: rotate(-90deg) translateX(100%);
+	transform-origin: 100% 100%;
+	font-size: 6em;
+	font-weight: 800;
+}
+
+.about .cloud01{
+	position: absolute;
+	top: 70%;
+	left: 7%;
+	z-index: -1;
+	opacity: 0.25;
+	animation: anim_cloud01 100s linear infinite;
+}
+
+@keyframes anim_cloud01{
+	0% {left: 7%;}
+	81% {left: 85%; opacity: 0;}
+	82% {left: -10%; opacity: 0;}
+	85% {opacity: 0.25;}
+	100% {left: 7%;}
+}
+
+.about .cloud02{
+	position: absolute;
+	opacity: 0.5;
+	top: 3%;
+	left: 10%;
+	z-index: -1;
+	animation: anim_cloud02 100s linear infinite;
+}
+
+@keyframes anim_cloud02{
+	0% {left: 10%;}
+	76% {left: 85%; opacity: 0;}
+	77% {left: -5%; opacity: 0;}
+	80% {opacity: 0.5;}
+	100% {left: 10%;}
+}
+.about .cloud03{
+	position: absolute;
+	opacity: 0.15;
+	top: 27%;
+	left: -2%;
+	z-index: -1;
+	animation: anim_cloud03 100s linear infinite;
+}
+@keyframes anim_cloud03{
+	0% {left: -2%;}
+	85% {opacity: 0; left: 70%;}
+	86% {left: -10%; opacity: 0;}
+	100% {left: -2%; opacity: 0.15;}
+}
+.about .cloud04{
+	position: absolute;
+	opacity: 0.45;
+	top: 47%;
+	left: 13%;
+	z-index: -1;
+	animation: anim_cloud04 100s linear infinite;
+}
+@keyframes anim_cloud04{
+	0% {left: 13%;}
+	81% {opacity: 0; left: 80%;}
+	83% {left: -10%; opacity: 0;}
+	100% {left: 13%; opacity: 0.15;}
+}
+.about .cloud05{
+	position: absolute;
+	left: 37%;
+	top: 20%;
+	opacity: 0.35;
+	z-index: -1;
+	animation: anim_cloud05 100s linear infinite;
+}
+@keyframes anim_cloud05{
+	0% {left: 37%;}
+	51% {opacity: 0; left: 75%;}
+	52% {left: -10%; opacity: 0;}
+	57% {opacity: 0.35;}
+	100% {left: 37%;}
+}
+.about .cloud06{
+	position: absolute;
+	left: 92%;
+	top: 45%;
+	opacity: 0.15;
+	z-index: -1;
+	animation: anim_cloud06 100s linear infinite;
+}
+@keyframes anim_cloud06{
+	0% {left: 92%;}
+	2% {opacity: 0; left: 95%;}
+	4% {left: -10%; opacity: 0;}
+	8% {opacity: 0.15;}
+	100% {left: 92%;}
+}
+.about .cloud07{
+	position: absolute;
+	left: 70%;
+	top: 10%;
+	opacity: 0.25;
+	z-index: -1;
+	animation: anim_cloud07 100s linear infinite;
+}
+@keyframes anim_cloud07{
+	0% {left: 70%;}
+	19% {opacity: 0; left: 87%;}
+	20% {left: -5%; opacity: 0;}
+	25% {opacity: 0.25;}
+	100% {left: 70%;}
+}
+.about .cloud08{
+	position: absolute;
+	left: 59%;
+	top: 37%;
+	opacity: 0.25;
+	z-index: -1;
+	animation: anim_cloud08 100s linear infinite;
+}
+@keyframes anim_cloud08{
+	0% {left: 59%;}
+	20% {opacity: 0; left: 80%;}
+	21% {left: -10%; opacity: 0;}
+	35% {opacity: 0.35;}
+	100% {left: 59%;}
+}
+.about .cloud09{
+	position: absolute;
+	left: 60%;
+	top: 57%;
+	opacity: 0.25;
+	z-index: -1;
+	animation: anim_cloud09 100s linear infinite;
+}
+@keyframes anim_cloud09{
+	0% {left: 60%;}
+	29% {opacity: 0; left: 90%;}
+	30% {left: -10%; opacity: 0;}
+	34% {opacity: 0.15;}
+	100% {left: 60%;}
+}
+.about .cloud10{
+	position: absolute;
+	left: 90%;
+	top: 17%;
+	opacity: 0.25;
+	z-index: -1;
+	animation: anim_cloud10 100s linear infinite;
+}
+@keyframes anim_cloud10{
+	0% {left: 90%;}
+	2% {opacity: 0; left: 91%;}
+	4% {left: -2%; opacity: 0;}
+	6% {opacity: 0.15;}
+	100% {left: 90%;}
+}
+.about .cloud11{
+	position: absolute;
+	left: 37%;
+	top: 50%;
+	opacity: 0.25;
+	z-index: -1;
+	animation: anim_cloud11 100s linear infinite;
+}
+@keyframes anim_cloud11{
+	0% {left: 37%;}
+	51% {opacity: 0; left: 75%;}
+	52% {left: -10%; opacity: 0;}
+	57% {opacity: 0.35;}
+	100% {left: 37%;}
+}
+.about.sty #heading1{
+color:#ffffff;
+position:absolute;
+font-size:6em;
+}
